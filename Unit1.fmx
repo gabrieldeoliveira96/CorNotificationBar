@@ -1,0 +1,28 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 397
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ColorPanel1: TColorPanel
+    Color = claWhite
+    Position.X = 64.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnChange = ColorPanel1Change
+  end
+  object Rectangle1: TRectangle
+    Position.X = 112.000000000000000000
+    Position.Y = 304.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

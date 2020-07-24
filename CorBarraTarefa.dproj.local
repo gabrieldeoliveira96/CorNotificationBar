@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/20 15:53:47.000.138,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2020/07/20 23:26:47.000.330,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2020/07/24 10:24:30.657,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 10:32:14.971,E:\Desenvolvimento\Teste\Cor Barra Notificacao\Unit1.fmx=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/07/24 10:32:14.971,E:\Desenvolvimento\Teste\Cor Barra Notificacao\Unit1.pas=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 10:33:39.749,E:\Desenvolvimento\Teste\Cor Barra Notificacao\Project2.dproj=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2020/07/24 10:39:34.464,E:\Desenvolvimento\Teste\Cor Barra Notificacao\CorBarraTarefa.dproj=E:\Desenvolvimento\Teste\Cor Barra Notificacao\Project2.dproj</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <PiOs iOSSimulator="iPhone5"/>
+    <NoProfile Android="LGH818d554ee08"/>
+  </ActiveMobileDevice>
+</BorlandProject>
