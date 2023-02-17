@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Colors,
-  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, iPub.FMX.SystemBars
 {$IF Defined(ANDROID)}
     , FMX.Helpers.Android,
   Androidapi.Helpers
@@ -36,16 +36,12 @@ begin
   Rectangle1.Fill.Color := ColorPanel1.Color;
 
 {$IF Defined(IOS)}
-  Form1.SystemStatusBar.BackgroundColor := ColorPanel1.Color;
-  Form1.SystemStatusBar.Visibility :=
-    TFormSystemStatusBar.TVisibilityMode.Visible;
+  self.SystemBars.StatusBarBackgroundColor := ColorPanel1.Color;
+  self.SystemBars.NavigationBarBackgroundColor := ColorPanel1.Color;
 {$ENDIF}
 {$IF Defined(ANDROID)}
-  CallInUIThreadAndWaitFinishing(
-    procedure
-    begin
-      TAndroidHelper.Activity.getWindow.setStatusBarColor(ColorPanel1.Color);
-    end);
+  Form1.SystemBars.StatusBarBackgroundColor := ColorPanel1.Color;
+  Form1.SystemBars.NavigationBarBackgroundColor := ColorPanel1.Color;
 {$ENDIF}
 end;
 

@@ -1,0 +1,5 @@
+platform select remote-android
+platform connect unix-abstract-connect:///data/local/tmp/debug.sock device=RQ8N30BXE5Z
+settings set plugin.jit-loader.gdb.enable off
+process attach -pid=14274
+target symbols add "C:\Gabriel\Desenvolvimento\Teste\CorNotificationBar\exe\CorBarraTarefa\debug\libCorBarraTarefa.so"
